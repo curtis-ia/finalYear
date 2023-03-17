@@ -1,0 +1,89 @@
+body{
+  background-image: url("\imghh.jpg");
+  align-items: center;
+
+
+}
+
+.wicked{
+  background-color: bisque;
+  height:500px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #00ccff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* width: 400px; */
+  margin-bottom: 0rem;
+  overflow:hidden
+}
+.bottom{
+padding-bottom:2rem;
+padding-left: .4rem;
+}
+
+.top{
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.top button {
+  background-color: rgb(175, 53, 104);
+  border: none;
+  color: #fff;
+  font-size: 0.2e,;
+  padding: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.top button:active{
+  background-color: yellow;
+}
+
+.card h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.currency-input {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.currency-symbol {
+  font-size: 1.2rem;
+}
+
+.currency-value {
+  font-size: 1.2rem;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-left: 1rem;
+  width: 100%;
+}
+
+.card button[type="submit"] {
+  background-color: #008cff;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.card button[type="submit"]:hover {
+  background-color: #0074e4;
+} 
